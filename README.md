@@ -19,7 +19,7 @@ Inputの msg.payload に取得したいQiitaユーザ名を指定してくださ
 msg.payload = {
   UserId: Qiitaユーザ名,
   Items: 投稿数,
-  Contributions: Contributions,
+  Contributions: LGTM数,
   Followers: フォロワー数
 }
 ```
