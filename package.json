@@ -1,0 +1,25 @@
+{
+    "name": "node-red-contrib-example-qiita-counter",
+    "version": "1.0.0",
+    "description": "A simple node that retrieve qiita user's Items, Contributions, Followers.",
+    "main": "qiita-counter.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "poruruba",
+    "license": "Apache-2.0",
+    "node-red": {
+        "nodes": {
+            "qiita-counter": "qiita-counter.js"
+        }
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/poruruba/node-red-contrib-example-qiita-counter.git"
+    },
+    "dependencies": {
+        "cheerio": "^1.0.0-rc.5",
+        "node-fetch": "^2.6.1"
+    }
+}
