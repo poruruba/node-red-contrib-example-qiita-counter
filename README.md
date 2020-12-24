@@ -7,7 +7,7 @@ Qiitaユーザの投稿数、Contributions、フォロワー数を取得するNo
 ## インストール
 
 ```
-> $npm install node-red-contrib-example-qiita-counter
+ $npm install node-red-contrib-example-qiita-counter
 ```
 
 ## 注意事項
@@ -23,6 +23,6 @@ QiitaのWebページからScrapingしていますので、Webページの変更�
 
 poruruba
 
-##License
+## License
 
 Apache-2.0
