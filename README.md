@@ -10,6 +10,10 @@ Qiitaユーザの投稿数、Contributions、フォロワー数を取得するNo
  $npm install node-red-contrib-example-qiita-counter
 ```
 
+## 使い方
+
+Inputのmsg.payload に取得したQiitaユーザ名を指定してください。
+
 ## 注意事項
 
 QiitaのWebページからScrapingしていますので、Webページの変更により取得できなくなる可能性があります。
