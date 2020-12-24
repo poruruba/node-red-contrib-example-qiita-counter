@@ -1,23 +1,26 @@
 # node-red-contrib-example-qiita-counter
 
-#ŠT—v
+## æ¦‚è¦
 
-Qiitaƒ†[ƒU‚Ì“Še”AContributionsAƒtƒHƒƒ[”‚ğæ“¾‚·‚éNode-RED‚Ìƒm[ƒh‚Å‚·B
+Qiitaãƒ¦ãƒ¼ã‚¶ã®æŠ•ç¨¿æ•°ã€Contributionsã€ãƒ•ã‚©ãƒ­ãƒ¯ãƒ¼æ•°ã‚’å–å¾—ã™ã‚‹Node-REDã®ãƒãƒ¼ãƒ‰ã§ã™ã€‚
 
-#ƒCƒ“ƒXƒg[ƒ‹
+## ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
 
 > $npm install node-red-contrib-example-qiita-counter
 
-#’ˆÓ–€
-Qiita‚ÌWebƒy[ƒW‚©‚çScraping‚µ‚Ä‚¢‚Ü‚·‚Ì‚ÅAWebƒy[ƒW‚Ì•ÏX‚É‚æ‚èæ“¾‚Å‚«‚È‚­‚È‚é‰Â”\«‚ª‚ ‚è‚Ü‚·B
+## æ³¨æ„äº‹é …
 
-#ˆË‘¶ŠÖŒW
+Qiitaã®Webãƒšãƒ¼ã‚¸ã‹ã‚‰Scrapingã—ã¦ã„ã¾ã™ã®ã§ã€Webãƒšãƒ¼ã‚¸ã®å¤‰æ›´ã«ã‚ˆã‚Šå–å¾—ã§ããªããªã‚‹å¯èƒ½æ€§ãŒã‚ã‚Šã¾ã™ã€‚
+
+## ä¾å­˜é–¢ä¿‚
 
 - cheerio
 - node-fetch
 
-#Author
+## Author
+
 poruruba
 
-#License
+##License
+
 Apache-2.0
