@@ -6,7 +6,9 @@ Qiitaユーザの投稿数、Contributions、フォロワー数を取得するNo
 
 ## インストール
 
+```
 > $npm install node-red-contrib-example-qiita-counter
+```
 
 ## 注意事項
 
