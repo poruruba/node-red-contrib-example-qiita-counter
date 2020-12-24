@@ -13,6 +13,16 @@ Qiitaユーザの投稿数、Contributions、フォロワー数を取得するNo
 ## 使い方
 
 Inputの msg.payload に取得したいQiitaユーザ名を指定してください。
+下記がOutputに出力されます。
+
+```
+msg.payload = {
+  UserId: Qiitaユーザ名,
+  Items: 投稿数,
+  Contributions: Contributions,
+  Followers: フォロワー数
+}
+```
 
 ## 注意事項
 
