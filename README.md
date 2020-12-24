@@ -12,7 +12,7 @@ Qiitaユーザの投稿数、Contributions、フォロワー数を取得するNo
 
 ## 使い方
 
-Inputのmsg.payload に取得したQiitaユーザ名を指定してください。
+Inputの msg.payload に取得したいQiitaユーザ名を指定してください。
 
 ## 注意事項
 
