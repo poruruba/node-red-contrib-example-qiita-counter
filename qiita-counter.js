@@ -1,6 +1,5 @@
 const cheerio = require('cheerio');
 const fetch = require('node-fetch');
-const { URL, URLSearchParams } = require('url');
 
 module.exports = function(RED) {
     function QiitaCounterNode(config) {
@@ -9,7 +8,7 @@ module.exports = function(RED) {
         node.on('input', async (msg, send, done) => {
             try{
                 const UserId = msg.payload || config.userid;
-                const text = await do_get('https://qiita.com/' + UserId, {});
+                const text = await do_get('https://qiita.com/' + UserId);
 	            const $ = cheerio.load(text);
 	            const description = $("meta[name='description']").attr("content");
                 const description_list = description.split(' ');
@@ -31,12 +30,8 @@ module.exports = function(RED) {
     RED.nodes.registerType("qiita-counter", QiitaCounterNode);
 }
 
-function do_get(url, qs) {
-  var params = new URLSearchParams(qs);
-  var url2 = new URL(url);
-  url2.search = params;
-
-  return fetch(url2.toString(), {
+function do_get(url) {
+  return fetch(url, {
       method: 'GET',
     })
     .then((response) => {
