@@ -20,7 +20,8 @@ msg.payload = {
   UserId: Qiitaユーザ名,
   Items: 投稿数,
   Contributions: LGTM数,
-  Followers: フォロワー数
+  Followers: フォロワー数,
+  create_at: 取得に指示
 }
 ```
 
