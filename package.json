@@ -16,7 +16,7 @@
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/poruruba/node-red-contrib-example-qiita-counter.git"
+      "url": "https://github.com/poruruba/node-red-contrib-example-qiita-counter.git"
     },
     "dependencies": {
         "cheerio": "^1.0.0-rc.5",
